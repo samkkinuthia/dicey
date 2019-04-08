@@ -20,6 +20,32 @@ An installation procedjure is not neccessary as we are running a website.
 
 If you have the source files then run the index.html file that you have in the dicey folder from cloning  and it will open the website localy. 
 
+## Description 
+
+This is a project that alows two players two play a game that involves a dice that is rolled and given a score to the represented player. The winner is the one with the highest score. Enjoy.
+
+## BDD 
+
+
+
+|   Behaviour                               |  Input                  |            Output                    |
+|-------------------------------------------|-------------------------|--------------------------------------|
+|  Player inputs their name                 |   Wepungulu             |      Wepungulu                       |
+|                                           |                         |                                      |
+|-------------------------------------------|-------------------------|--------------------------------------|
+|  Player rolls dice                        |    1 pts                |     Round score to 0                 |
+|   and scores one                          |                         |                                      |
+|-------------------------------------------|-------------------------|--------------------------------------|
+|   player rolls dice and                   |    2pts or 3pts and >   |  2pts or 3pts etc                    |
+|    gets above one                         |                         |                                      |
+|-------------------------------------------|-------------------------|--------------------------------------|
+|   player passes and                       |   pass and              |    total scores                      |
+|    holds                                  |   hold                  |    = 2pts , next player.             |
+|-------------------------------------------|-------------------------|--------------------------------------|
+|  1st player to                            |  100pts                 |       Winner                         |
+|  score 100 pts                            |                         |                                      |
+|-------------------------------------------|-------------------------|--------------------------------------|
+
 
 ## Built With
 
